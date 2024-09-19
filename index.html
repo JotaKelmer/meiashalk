@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meias Halk - Indústria Têxtil de alta qualidade com foco em meias e cuecas. Revenda nossos produtos no atacado em todo o Brasil.">
+  <meta name="keywords" content="meias, cuecas, revenda, atacado, indústria têxtil, qualidade, conforto, durabilidade">
+  <meta name="author" content="Meias Halk">
+  
+  <!-- Open Graph Meta Tags para Redes Sociais -->
+  <meta property="og:title" content="Meias Halk - Revenda de Meias e Cuecas">
+  <meta property="og:description" content="Descubra meias e cuecas de alta qualidade para revenda em todo o Brasil.">
+  <meta property="og:image" content="/assets/img/hero.jpg">
+  <meta property="og:url" content="https://www.meiashalk.com.br">
+  <meta property="og:type" content="website">
+  
+  <title>Meias Halk - Revenda de Meias e Cuecas</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Schema.org Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Meias Halk",
+    "description": "Indústria Têxtil de alta qualidade com foco em meias e cuecas. Revenda nossos produtos no atacado em todo o Brasil.",
+    "url": "https://www.meiashalk.com.br",
+    "telephone": "(32) 3234-3690",
+    "email": "contato@meiashalk.com.br",
+    "logo": "https://www.meiashalk.com.br/assets/img/Halk-branco.png",
+    "image": "https://www.meiashalk.com.br/assets/img/hero.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "BR",
+      "addressRegion": "MG",
+      "addressLocality": "Sul de Minas"
+    },
+    "sameAs": [
+      "https://www.facebook.com/meiashalk",
+      "https://www.instagram.com/meiashalk"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="/">
+        <img src="/assets/img/Halk-branco.png" alt="Logo Meias Halk - Indústria Têxtil de Alta Qualidade">
+      </a>
+    </div>
+    <nav aria-label="Menu Principal">
+      <ul>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#formulario">Contato</a></li>
+      </ul>
+    </nav>
+    <!-- Ícone do Menu Hamburger -->
+    <div class="hamburger" aria-label="Menu de Navegação" aria-expanded="false" role="button" tabindex="0">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <h1>Meias e Cuecas de Qualidade para Revenda</h1>
+        <p>Com 25 anos no mercado têxtil, a Meias Halk é referência na produção de meias e cuecas, atendendo revendedores e distribuidores de todo o Brasil. Solicite nosso catálogo completo e descubra como aumentar suas vendas.</p>
+        <form id="formulario" class="formulario" action="process_form.php" method="POST" aria-label="Formulário de Solicitação de Catálogo">
+          <input type="text" name="nome" placeholder="Seu Nome" required aria-required="true">
+          <input type="email" name="email" placeholder="Seu E-mail" required aria-required="true">
+          <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" pattern="\(\d{2}\) \d{5}-\d{4}" title="O telefone deve estar no formato (XX) XXXXX-XXXX">
+          <label for="regiao" class="visually-hidden">Selecione sua Região</label>
+          <select name="regiao" id="regiao" required aria-required="true">
+              <option value="">Selecione sua Região</option>
+              <option value="sul-minas">Sul de Minas</option>
+              <option value="triangulo-mineiro">Triângulo Mineiro</option>
+              <option value="rio-janeiro">Rio de Janeiro (Capital)</option>
+              <option value="norte-fluminense">Norte Fluminense</option>
+              <option value="metropolitana-sao-paulo">Região Metropolitana de São Paulo</option>
+          </select>
+          <button type="submit">Solicitar Contato</button>
+        </form>
+      </div>
+      <div class="hero-image">
+        <img src="/assets/img/hero.jpg" alt="Coleção de Meias e Cuecas da Meias Halk">
+      </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="sobre">
+      <h2>Sobre a Meias Halk</h2>
+      <p>A Meias Halk é uma indústria têxtil com 25 anos de experiência na produção de meias e cuecas de alta qualidade. Nosso compromisso é oferecer produtos duráveis, confortáveis e com design inovador para nossos parceiros revendedores em todo o Brasil.</p>
+      <!-- Vídeo Adicionado -->
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/oRc3GzMv8Io" title="Vídeo Sobre Meias Halk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section class="beneficios">
+      <h2>Por que Revender Meias e Cuecas da Meias Halk?</h2>
+      <div class="beneficios-lista">
+        <div class="beneficio-item">
+          <img src="/assets/img/icon-1.png" alt="Preço competitivo das Meias Halk">
+          <h3>Preços Competitivos</h3>
+          <p>Garantimos preços acessíveis para atacado, com excelente margem de lucro para nossos parceiros.</p>
+        </div>
+        <div class="beneficio-item">
+          <img src="/assets/img/icon-2.png" alt="Qualidade garantida das Meias Halk">
+          <h3>Qualidade Garantida</h3>
+          <p>Nossa produção é feita com materiais de alta qualidade, garantindo durabilidade e conforto.</p>
+        </div>
+        <div class="beneficio-item">
+          <img src="/assets/img/icon-3.png" alt="Entrega rápida das Meias Halk">
+          <h3>Entrega Rápida</h3>
+          <p>Atendemos rapidamente todo o Brasil, com foco nas regiões de São Paulo, Rio de Janeiro e Minas Gerais.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Provas Sociais -->
+    <section class="provas-sociais">
+      <h2>O Que Nossos Clientes Dizem</h2>
+      <article class="depoimento">
+        <p>"Trabalhar com a Meias Halk foi a melhor decisão para nossa loja. A qualidade dos produtos e a entrega rápida são incomparáveis!"</p>
+        <span>- João Oliveira, Revendedor em São Paulo</span>
+      </article>
+      <article class="depoimento">
+        <p>"A Meias Halk oferece uma excelente margem de lucro. Nossa revenda cresceu 30% desde a parceria."</p>
+        <span>- Maria Santos, Distribuidora no Rio de Janeiro</span>
+      </article>
+    </section>
+
+    <!-- Catálogo 2024 -->
+    <section id="catalogo" class="catalogo">
+      <h2>Conheça os nossos catálogos</h2>
+      <div class="catalogo-imagens">
+        <div class="catalogo-item">
+          <img src="/assets/img/halk.png" alt="Catálogo 2024 de Meias e Cuecas da Meias Halk">
+          <a href="https://meiashalk.com.br/wp-content/uploads/2024/09/CATALOGO-MEIAS-HALK-2024.pdf" class="cta">Baixar Catálogo Halk</a>
+        </div>
+        <div class="catalogo-item">
+          <img src="/assets/img/descobrir.png" alt="Catálogo 2024 de Meias infantis Descobrir">
+          <a href="https://meiashalk.com.br/wp-content/uploads/2024/07/CATALOGO-DESCOBRIR-06.2024.pdf" class="cta">Baixar Catálogo Descobrir</a>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-info">
+      <p>&copy; 2024 Meias Halk - Primar Indústria Têxtil. Todos os direitos reservados.</p>
+      <p>Telefone: <a href="tel:+3232343690">(32) 3234-3690</a> | E-mail: <a href="mailto:contato@meiashalk.com.br">contato@meiashalk.com.br</a></p>
+    </div>
+    <div class="redes-sociais">
+      <a href="https://www.facebook.com/meiahalk" aria-label="Facebook Meias Halk"><img src="/assets/img/facebook.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/meiashalk" aria-label="Instagram Meias Halk"><img src="/assets/img/instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+
+  <!-- JavaScript para o Menu Hamburger -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburger = document.querySelector('.hamburger');
+      const header = document.querySelector('header');
+      const nav = document.querySelector('header nav');
+
+      // Toggle do menu ao clicar no hamburger
+      hamburger.addEventListener('click', function(event) {
+        event.stopPropagation(); // Evita que o clique no hamburger feche imediatamente o menu
+        header.classList.toggle('active');
+        const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
+        hamburger.setAttribute('aria-expanded', !expanded);
+      });
+
+      // Fechar o menu ao clicar em um link no mobile
+      const navLinks = document.querySelectorAll('header nav ul li a');
+      navLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+          if (header.classList.contains('active')) {
+            header.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', false);
+          }
+        });
+      });
+
+      // Fechar o menu ao clicar fora dele
+      document.addEventListener('click', function(event) {
+        if (!header.contains(event.target) && header.classList.contains('active')) {
+          header.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', false);
+        }
+      });
+
+      // Fechar o menu ao pressionar a tecla Esc
+      document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && header.classList.contains('active')) {
+          header.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', false);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
